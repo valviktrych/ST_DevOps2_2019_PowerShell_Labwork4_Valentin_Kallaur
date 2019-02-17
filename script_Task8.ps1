@@ -1,0 +1,1 @@
+﻿gwmi win32_product | ft Name, Version -AutoSize | Out-File C:\M2T2_KALLAUR\Result.txt -append
